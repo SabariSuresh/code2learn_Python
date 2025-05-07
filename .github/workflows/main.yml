@@ -1,0 +1,11 @@
+name: testauto
+on:
+  push:
+    branches:
+      -main
+  workflow_dispatch:
+jobs:
+  my_job:
+    name: logout
+    run: echo Hello World
+    
