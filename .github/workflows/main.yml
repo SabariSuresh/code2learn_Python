@@ -7,6 +7,7 @@ on:
 jobs:
   my_job:
     steps:
+      uses: action/checkout@v3
     - name: logout
       run: echo Hello World
     
